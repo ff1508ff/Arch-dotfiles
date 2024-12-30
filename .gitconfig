@@ -1,0 +1,8 @@
+[user]
+	email = 111969821+ff1508ff@users.noreply.github.com
+	name = ff1508ff
+	# git config --local user.name "Your Name"
+	# git config --local user.email "email@example.com"
+
+[pull]
+	rebase = false
