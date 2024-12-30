@@ -45,13 +45,6 @@ zll() {
 }
 alias z='zll'
 
-# fnm
-FNM_PATH="/home/dev/.local/share/fnm"
-if [ -d "$FNM_PATH" ]; then
-  export PATH="$FNM_PATH:$PATH"
-  eval "`fnm env`"
-fi
-
 # lazygit
 alias lg='lazygit'
 
@@ -88,7 +81,7 @@ function zs() {
 }
 
 ZELLIJ_AUTO_ATTACH=true
-### this was created with "zellij setup --generate-auto-start"
+## this was created with "zellij setup --generate-auto-start"
 if [[ -z "$ZELLIJ" ]]; then
   if [[ "$ZELLIJ_AUTO_ATTACH" == "true" ]]; then
     zs
