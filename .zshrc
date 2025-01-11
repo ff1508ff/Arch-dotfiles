@@ -16,7 +16,7 @@ compinit
 # no duplicate comands in history
 setopt hist_ignore_all_dups
 
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 # eval "$(dircolors ~/.dir_colors)"
 
 eval "$(zoxide init zsh --hook prompt)"

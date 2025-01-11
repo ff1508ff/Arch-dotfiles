@@ -47,7 +47,7 @@ stow . -t ~/
 
 ## symlinks
 ### C/C++ "default" format config
-sudo ln -s ~/dotfiles/.config/nvim/lsp-conf/c/.clang-format /.clang-format
+sudo ln -s ~/.config/nvim/lsp-conf/c/.clang-format /.clang-format
 
 # Programs
 
@@ -125,5 +125,10 @@ sudo pacman -S lazygit
 echo "========== Installing lazydocker =========="
 yay -S lazydocker
 
-## zathura (pdf viewer)(https://github.com/pwmt/zathura)
+## Zathura (pdf viewer)(https://github.com/pwmt/zathura)
+echo "========== Installing zathura =========="
 sudo pacman -S zathura
+
+## Starship (make the terminal look good)(https://github.com/starship/starship)
+echo "========== Installing starship =========="
+sudo pacman -S starship
