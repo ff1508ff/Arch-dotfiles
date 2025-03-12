@@ -29,7 +29,7 @@ read -r -p "Press ENTER to continue"
 read -r -p "you sure?"
 
 ## geting config files from repo
-git clone git@github.com:ff1508ff/Arch-dotfiles.git ~/projects/Arch-dotfiles
+git clone --recurse-submodules git@github.com:ff1508ff/Arch-dotfiles.git ~/projects/Arch-dotfiles
 
 ## moving existing configs
 mv ~/.config/* ~/projects/Arch-dotfiles/.config

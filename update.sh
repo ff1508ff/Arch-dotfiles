@@ -4,7 +4,7 @@ sudo pacman -Syu
 
 # update yay(AUR) packages
 echo "========== yay =========="
-sudo yay -Syu
+yay -Syu
 
 # update rust
 echo "========== rust =========="
