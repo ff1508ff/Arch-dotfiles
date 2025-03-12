@@ -23,3 +23,7 @@
 .config/user-dirs.locale
 yay
 .config/discordcanary
+.config/Docker Desktop
+.config/Postman
+.config/obs-studio
+.config/systemd/user/graphical-session.target.wants
