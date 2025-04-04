@@ -29,7 +29,11 @@ read -r -p "Press ENTER to continue"
 read -r -p "you sure?"
 
 ## geting config files from repo
-git clone --recurse-submodules git@github.com:ff1508ff/Arch-dotfiles.git ~/projects/Arch-dotfiles
+git clone --recurse-submodules git@github.com:ff1508ff/Arch-dotfiles.git ~/Projects/Arch-dotfiles
+git clone --recurse-submodules git@github.com:ff1508ff/DotConfig.git ~/Projects/DotConfig
+cp -r ~/Projects/DotConfig/* ~/Projects/Arch-dotfiles/.config
+cp -r ~/Projects/DotConfig/.git ~/Projects/Arch-dotfiles/.config
+rm -rf ~/Projects/DotConfig
 
 ## moving existing configs
 mv ~/.config/* ~/projects/Arch-dotfiles/.config
@@ -132,3 +136,6 @@ sudo pacman -S zathura
 ## Starship (make the terminal look good)(https://github.com/starship/starship)
 echo "========== Installing starship =========="
 sudo pacman -S starship
+
+## Install nerd font
+sudo pacman -S ttf-jetbrains-mono-nerd

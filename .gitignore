@@ -27,3 +27,10 @@ yay
 .config/Postman
 .config/obs-studio
 .config/systemd/user/graphical-session.target.wants
+
+# things in the dotconfig repo
+.config/nvim/
+.config/zellij/
+.config/lazygit/
+.config/starship.toml
+.config/README.md
